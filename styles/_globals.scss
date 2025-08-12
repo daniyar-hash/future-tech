@@ -1,0 +1,18 @@
+@use 'helpers' as *;
+
+
+
+
+body {
+
+    
+
+    p{
+        @include fluid-text(48, 16);
+        width:  rem(100);
+        @include mobile{
+            background-color: rebeccapurple;
+        }
+        color: red;
+    }
+}
