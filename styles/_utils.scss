@@ -21,6 +21,12 @@ padding-inline:var(--container-padding-x);
     }
 }
 
+.visible-mobile{
+    @include mobile-above{
+        display: none !important;
+    }
+}
+
 .hidden-desktop{
     @include mobile-above{
         display: none !important;
